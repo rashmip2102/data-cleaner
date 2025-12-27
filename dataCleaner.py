@@ -6,7 +6,7 @@ def data_cleaner(file):
     df.info()
     df.describe()
     sumDupRows=df.duplicated().sum()
-    if sum>0:
+    if sumDupRows>0:
         df.drop_duplicates()
     df=df.fillna('Unknown')
     df=df.replace('',np.nan)
@@ -16,5 +16,6 @@ def data_cleaner(file):
 file_path=input('Enter the path of the file you want to clean the data of:')
 file_path = file_path.strip(' "')
 data_cleaner(file_path)
+
 
 
