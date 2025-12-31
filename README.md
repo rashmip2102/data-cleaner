@@ -12,7 +12,7 @@ The data_cleaner script is a Python-based utility designed to streamline the pre
 ## Prerequisites
 Before running the script, ensure you have the following libraries installed:
 ```bash
-pip install pandas numpy
+pip install pandas numpy```
 ## How to Use
 1. Run the Script: Execute the Python file.
 2. Provide File Path: When prompted, enter the full path to your .csv file (e.g., C:/Users/Documents/data.csv).
