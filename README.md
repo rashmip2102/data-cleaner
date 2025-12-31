@@ -11,7 +11,8 @@ The data_cleaner script is a Python-based utility designed to streamline the pre
 - **Interactive Type Casting:** Prompts the user to convert specific columns to Numeric or Datetime formats if they were incorrectly loaded as strings.
 ## Prerequisites
 Before running the script, ensure you have the following libraries installed:
-`pip install pandas numpy`
+```bash
+pip install pandas numpy
 ## How to Use
 1. Run the Script: Execute the Python file.
 2. Provide File Path: When prompted, enter the full path to your .csv file (e.g., C:/Users/Documents/data.csv).
