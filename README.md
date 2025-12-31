@@ -4,7 +4,7 @@ The data_cleaner script is a Python-based utility designed to streamline the pre
 ### Key Features
 **Dataset Inspection:** Automatically displays df.info() and df.describe() to provide an immediate overview of data types and statistical distributions.
 **Duplicate Removal:** Detects and removes exact duplicate rows.
-1. **Missing Value Handling:** Fills empty cells with the string "Unknown".
+- **Missing Value Handling:** Fills empty cells with the string "Unknown".
    - Normalizes common placeholder strings (like "nan" or empty strings) to standard np.nan objects.
    - Uses Regex to identify and remove common special character noise (e.g., !@#$%^&*). 
 
