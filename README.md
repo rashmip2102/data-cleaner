@@ -1,6 +1,6 @@
 # data-cleaner
 ## Overview
-The data_cleaner script is a Python-based utility designed to streamline the preliminary steps of data preprocessing. It utilizes the pandas and numpy libraries to identify data issues and perform cleaning operations through a mix of automated logic and user input.
+The data-cleaner script is a Python-based utility designed to streamline the preliminary steps of data preprocessing. It utilizes the pandas and numpy libraries to identify data issues and perform cleaning operations through a mix of automated logic and user input.
 ### Key Features
 - **Dataset Inspection:** Automatically displays df.info() and df.describe() to provide an immediate overview of data types and statistical distributions.
 - **Duplicate Removal:** Detects and removes exact duplicate rows.
